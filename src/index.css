@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --color-error: #F94A29;
+  --color-warning: #ffc906;
+  --color-success: #30e39e;
+  --color-grey: rgb(151, 151, 151);
+  --card-width: 450px;
+  --card-padding: 25px;
+  --card-height: 210px
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
