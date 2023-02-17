@@ -1,9 +1,4 @@
-import {
-  STRENGTH_DESCRIPTION,
-  STRENGTH_STATUS,
-  STROKE_COLOR,
-  TRAIL_COLOR,
-} from '../../constants';
+import { STRENGTH_STATUS } from '../constants';
 
 export interface PasswordValidity {
   progressBar: number;
@@ -11,4 +6,8 @@ export interface PasswordValidity {
   trailColor: TRAIL_COLOR;
   description: null | STRENGTH_DESCRIPTION;
   status: null | STRENGTH_STATUS;
+}
+
+export interface PasswordValidityAction {
+  type: STRENGTH;
 }

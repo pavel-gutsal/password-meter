@@ -1,8 +1,9 @@
-import { STRENGTH } from '../constants';
-
-const letterList = 'a-zA-Z';
-const numberList = '0-9'; // can be changed with \d
-const specialCharacterList = '@$!%*#?&*+-/';
+import {
+  STRENGTH,
+  letterList,
+  numberList,
+  specialCharacterList,
+} from '../../../constants';
 
 const atleastOneLetter = `(?=.*[${letterList}])`;
 const atleastOneNumber = `(?=.*[${numberList}])`;

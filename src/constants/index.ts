@@ -32,3 +32,9 @@ export enum STRENGTH_STATUS {
   WARNING = 'warning',
   SUCCESS = 'success',
 }
+
+export const letterList = 'a-zA-Z';
+export const numberList = '0-9'; // can be changed with \d
+export const specialCharacterList = '@$!%*#?&*+-/';
+
+export const SEGMENTS = ['ant design', 'styled component'];

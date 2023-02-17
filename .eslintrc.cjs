@@ -29,5 +29,7 @@ module.exports = {
     '@typescript-eslint/naming-convention': 0,
     'default-case': 0,
     'jsx-a11y/label-has-associated-control': 0,
+    'no-param-reassign': 0,
+    'consistent-return': 0,
   },
 };

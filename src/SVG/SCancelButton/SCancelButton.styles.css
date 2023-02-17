@@ -1,0 +1,19 @@
+.Cancel__svg {
+  fill: rgb(152, 152, 152);
+  background: white;
+  outline: none;
+  width: 30px;
+  border: none;
+  height: 80%;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  top:50%;
+  right: 50px;
+  transform: translateY(-45%);
+}
+
+.Cancel__svg:hover,
+.Cancel__svg:focus {
+  cursor: pointer;
+  fill: rgb(255, 71, 71);
+}

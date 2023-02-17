@@ -25,3 +25,15 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  transform: translateY(-10%);
+}
+
+.Segmented {
+  width: fit-content;
+}
