@@ -8,7 +8,7 @@ interface Props {
 
 export const SCopyButton = ({ status }: Props) => {
   return (
-    <button type="button" className={classNames('Copy__svg', status)}>
+    <button type="button" className={classNames('Copy__svg', `${status}__svg`)}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="24"

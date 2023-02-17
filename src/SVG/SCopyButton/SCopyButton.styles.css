@@ -17,17 +17,17 @@
   border: 1px solid rgb(71, 209, 255);
 }
 
-.error {
+.error__svg {
   border: 1px solid var(--color-error);
   fill: var(--color-error);
 }
 
-.warning {
+.warning__svg {
   border: 1px solid var(--color-warning);
   fill: var(--color-warning);
 }
 
-.success {
+.success__svg {
   border: 1px solid var(--color-success);
   fill: var(--color-success);
 }

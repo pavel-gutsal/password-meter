@@ -39,7 +39,7 @@ type TitleProps = {
   status?: STRENGTH_STATUS | null;
 };
 
-export const STitle = styled.h3`
+export const STitle = styled.h3<TitleProps>`
   font-size: 14px;
   color: ${({ status }) => (status ? colors[status] : colors.grey)};
   margin-bottom: 5px;

@@ -13,7 +13,9 @@ export const App = () => {
       <div className="App">
         <Segmented
           options={SEGMENTS}
-          onChange={(value) => setSelectedSegment(value)}
+          onChange={(value) => {
+            setSelectedSegment(value as string);
+          }}
           className="Segmented"
         />
         {selectedSegment === SEGMENTS[0] ? (

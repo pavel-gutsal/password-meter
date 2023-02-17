@@ -1,12 +1,11 @@
 import {
-  PasswordValidityAction,
   STRENGTH,
   STRENGTH_DESCRIPTION,
   STRENGTH_STATUS,
   STROKE_COLOR,
   TRAIL_COLOR,
 } from '../constants';
-import { PasswordValidity } from '../types';
+import { PasswordValidity, PasswordValidityAction } from '../types';
 
 export const passwordValidityInit: PasswordValidity = {
   progressBar: 0,

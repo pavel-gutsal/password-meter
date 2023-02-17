@@ -53,7 +53,7 @@ export const PasswordCustom = () => {
             status={passwordValidity.status}
           />
           {password && <SCancelButton deleteHandler={deleteHandler} />}
-          <SCopyButton status={passwordValidity.status}>Copy</SCopyButton>
+          <SCopyButton status={passwordValidity.status} />
         </SInputWrapper>
       </SLabel>
       <SProgressBarContainer>

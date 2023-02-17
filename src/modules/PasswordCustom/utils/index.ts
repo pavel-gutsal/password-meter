@@ -58,4 +58,6 @@ export const passwordValidator = (password: string): STRENGTH => {
   ) {
     return STRENGTH.STRONG;
   }
+
+  return STRENGTH.EMPTY;
 };

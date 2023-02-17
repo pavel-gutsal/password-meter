@@ -1,4 +1,10 @@
-import { STRENGTH_STATUS } from '../constants';
+import {
+  STRENGTH,
+  STRENGTH_DESCRIPTION,
+  STRENGTH_STATUS,
+  STROKE_COLOR,
+  TRAIL_COLOR,
+} from '../constants';
 
 export interface PasswordValidity {
   progressBar: number;
